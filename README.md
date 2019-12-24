@@ -12,7 +12,9 @@
   "[javascript]": {
     "editor.formatOnSave": false
   },
-  "eslint.autoFixOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
   "eslint.run": "onSave",
   "editor.cursorBlinking": "phase",
   "window.openFilesInNewWindow": "off",
